@@ -4,9 +4,9 @@
 This report provide any insight that I found through data analysis. The [dataset](https://github.com/indrasetiadhip/data-task-sample) I analyze contains information about delivery task within 10 days of work.
 - - - -
 
-## Additional FIndings
+## Additional Findings
 
-### Relationship Between Ongoing Task with Bull Entries in the Dataset
+### Relationship Between Ongoing Task with Null Entries in the Dataset
 ![Barplot of Null Entries due to Ongoing Task](./charts/correlation-null-with-ongoing-task.png)
 
 `sns.barplot()` used here to see the relationship of to categorical field/variable in the dataframe. X axis is the _taskStatus_ which gives information about current situation of the task. _taskStatus_ has 2 values: 
